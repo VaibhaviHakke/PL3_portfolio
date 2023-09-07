@@ -1,0 +1,30 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    text-decoration:solid;   
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+    --big-font: 3rem;
+    --p-font: 1.1rem;
+}   
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow-x:hidden;
+}
+.submain{
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border:1px solid #3b3b3b;
+    padding: 5px 35px;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    line-height: 2rem;
+}
+.submain:hover{
+    transform: translateY(-10px);
+    background-color: var(--main-color)
+}
